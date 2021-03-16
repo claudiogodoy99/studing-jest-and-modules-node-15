@@ -1,0 +1,18 @@
+{
+  "name": "node-teste-v15",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && npx jest --config jest.config.mjs",
+    "test:cov": "set NODE_OPTIONS=--experimental-vm-modules && npx jest --config jest.config.mjs --coverage",
+    "test:watch": "set NODE_OPTIONS=--experimental-vm-modules && npx jest --config jest.config.mjs --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
